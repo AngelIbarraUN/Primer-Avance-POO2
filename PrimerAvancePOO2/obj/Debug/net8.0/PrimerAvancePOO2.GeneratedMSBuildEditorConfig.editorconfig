@@ -18,6 +18,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\angel\Desktop\POO2\Primer Avance POO2\PrimerAvancePOO2
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/angel/Desktop/POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Componente/Componentes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50ZVxDb21wb25lbnRlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/angel/Desktop/POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Componente/ComponentesAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50ZVxDb21wb25lbnRlc0FkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/angel/Desktop/POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Componente/ComponentesEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50ZVxDb21wb25lbnRlc0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/angel/Desktop/POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

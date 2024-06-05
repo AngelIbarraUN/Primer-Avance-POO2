@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PrimerAvancePOO2.props" />
+</Project>
