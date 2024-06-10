@@ -1,0 +1,53 @@
+@model IEnumerable<ComponentesModel> 
+
+@{
+    ViewData["Title"] = "Listado de Componentes";
+}
+
+<div class="text-center">
+<h1 class="display-2">Listado de Componentes</h1>
+<a asp-controller="Componente" asp-action="ComponentesAdd" class="btn btn-primary mb-3"> Agregar Componente </a>
+</div>
+<table class="table">  
+    <thead>
+<tr>
+    <th>Acciones </th>
+    <th>ID</th>
+    <th>Nombre</th>
+    <th>Descripción</th>
+    <th>Precio</th>
+    <th>Cantidad</th>
+</tr>
+
+    </thead>
+<tbody>
+@foreach(var componente in Model)
+{
+    <tr>
+        <td>
+<a class="btn btn-primary" asp-controller="Componente" asp-action="ComponentesEdit" asp-route-id="@componente.Id">Editar</a>
+<a class="btn btn-danger" asp-controller="Componente" asp-action="ComponentesDeleted" asp-route-id="@componente.Id">Borrar</a>
+        </td>
+        <td>
+            @componente.Id
+        </td>
+          <td>
+            @componente.Name
+        </td>
+          <td>
+            @componente.Descripcion
+        </td>
+          <td>
+            @componente.precio
+        </td>
+          <td>
+            @componente.cantidad
+        </td>
+    </tr>
+}
+</tbody>
+
+<tfoot>
+
+</tfoot>
+</table>
