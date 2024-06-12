@@ -1,0 +1,13 @@
+@model ComponentesModel;
+@{
+    ViewData["Title"] = "Borrar el componente";
+}
+ 
+  <div class="mb-3">
+¿Estas seguro de que deseas borrar el componente @Model.Name ?
+</div>
+
+<form asp-controller="Componente" asp-action="ComponentesDeleted">
+<button type="submit" class ="btn btn-danger">Borrar</button>
+<a class="btn btn-secundary" asp-asp-controller="Componente" asp-action="ComponentesList" >Regresar </a>
+</form>
