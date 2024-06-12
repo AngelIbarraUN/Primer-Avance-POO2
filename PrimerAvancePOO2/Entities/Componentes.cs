@@ -8,5 +8,9 @@ namespace PrimerAvancePOO2.Entities
     public int precio { get; set; } 
     public int cantidad { get; set; }
 
+     public Guid? ProveedorId { get; set; }
+    
+    public Proveedor? Proveedor{ get; set; }    
+
     }
 }

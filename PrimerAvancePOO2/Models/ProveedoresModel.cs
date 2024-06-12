@@ -1,13 +1,14 @@
-namespace PrimerAvancePOO2.Entities
+
+namespace PrimerAvancePOO2.Models;
+
+public class ProveedoresModel
 {
-    public class Proveedor
+    public ProveedoresModel()
     {
+    }
     public Guid Id { get; set; }
     public string Name { get; set; }    
     public string Telefono { get; set; }
     public int Direccion { get; set; } 
     public string Email { get; set; }   
-
-    public List <Componentes> Componentes { get; set; }
-}
 }

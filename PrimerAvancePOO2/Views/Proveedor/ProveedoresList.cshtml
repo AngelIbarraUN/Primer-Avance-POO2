@@ -1,12 +1,12 @@
-@model IEnumerable<ComponentesModel> 
+@model IEnumerable<ProveedoresModel> 
 
 @{
-    ViewData["Title"] = "Listado de Componentes";
+    ViewData["Title"] = "Listado de Proveedores:";
 }
 
 <div class="text-center">
-<h1 class="display-2">Listado de Componentes</h1>
-<a asp-controller="Componente" asp-action="ComponentesAdd" class="btn btn-primary mb-3"> Agregar Componente </a>
+<h1 class="display-2">Listado de Proveedores</h1>
+<a asp-controller="Proveedor" asp-action="ProveedoresAdd" class="btn btn-primary mb-3"> Agregar Proveedor </a>
 </div>
 <table class="table">  
     <thead>
@@ -14,34 +14,30 @@
     <th>Acciones </th>
     <th>ID</th>
     <th>Nombre</th>
-    <th>Descripción</th>
-    <th>Precio</th>
-    <th>Cantidad</th>
+    <th>Teléfono</th>
+    <th>Dirección</th>
 </tr>
 
     </thead>
 <tbody>
-@foreach(var componente in Model)
+@foreach (var proveedor in Model)
 {
     <tr>
         <td>
-<a class="btn btn-primary" asp-controller="Componente" asp-action="ComponentesEdit" asp-route-id="@componente.Id">Editar</a>
-<a class="btn btn-danger" asp-controller="Componente" asp-action="ComponentesDeleted" asp-route-id="@componente.Id">Borrar</a>
+<a class="btn btn-primary" asp-controller="Proveedor" asp-action="ProveedoresEdit" asp-route-id="@proveedor.Id">Editar</a>
+<a class="btn btn-danger" asp-controller="Proveedor" asp-action="ProveedoresDeleted" asp-route-id="@proveedor.Id">Borrar</a>
         </td>
         <td>
-            @componente.Id
+            @proveedor.Id
         </td>
           <td>
-            @componente.Name
+            @proveedor.Name
+        //td>
+          <td>
+            
         </td>
           <td>
-            @componente.Descripcion
-        </td>
-          <td>
-            @componente.Precio
-        </td>
-          <td>
-            @componente.Cantidad
+        
         </td>
     </tr>
 }
