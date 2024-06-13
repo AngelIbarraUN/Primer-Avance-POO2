@@ -4106,26 +4106,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\angel\\.nuget\\packages\\": {}
+    "C:\\Users\\oscar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\angel\\Desktop\\POO2\\Primer Avance POO2\\PrimerAvancePOO2\\PrimerAvancePOO2.csproj",
+      "projectUniqueName": "D:\\Descargas2\\Primer-Avance-POO2\\PrimerAvancePOO2\\PrimerAvancePOO2.csproj",
       "projectName": "PrimerAvancePOO2",
-      "projectPath": "C:\\Users\\angel\\Desktop\\POO2\\Primer Avance POO2\\PrimerAvancePOO2\\PrimerAvancePOO2.csproj",
-      "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\angel\\Desktop\\POO2\\Primer Avance POO2\\PrimerAvancePOO2\\obj\\",
+      "projectPath": "D:\\Descargas2\\Primer-Avance-POO2\\PrimerAvancePOO2\\PrimerAvancePOO2.csproj",
+      "packagesPath": "C:\\Users\\oscar\\.nuget\\packages\\",
+      "outputPath": "D:\\Descargas2\\Primer-Avance-POO2\\PrimerAvancePOO2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\oscar\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
