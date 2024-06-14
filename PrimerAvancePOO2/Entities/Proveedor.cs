@@ -5,9 +5,7 @@ namespace PrimerAvancePOO2.Entities
     public Guid Id { get; set; }
     public string Name { get; set; }    
     public string Telefono { get; set; }
-    public int Direccion { get; set; } 
+    public string Direccion { get; set; } 
     public string Email { get; set; }   
-
-    public List <Componentes> Componentes { get; set; }
 }
 }

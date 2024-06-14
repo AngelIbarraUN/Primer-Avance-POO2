@@ -7,10 +7,7 @@ namespace PrimerAvancePOO2.Entities
     public string Descripcion { get; set; }
     public int precio { get; set; } 
     public int cantidad { get; set; }
-
-     public Guid? ProveedorId { get; set; }
-    
-    public Proveedor? Proveedor{ get; set; }    
+   
 
     }
 }

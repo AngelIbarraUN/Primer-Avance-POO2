@@ -12,8 +12,8 @@ using PrimerAvancePOO2;
 namespace PrimerAvancePOO2.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240612195815_RelacionComponentesProveedor")]
-    partial class RelacionComponentesProveedor
+    [Migration("20240614040130_TablaComponentesProveedor")]
+    partial class TablaComponentesProveedor
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -39,9 +39,6 @@ namespace PrimerAvancePOO2.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid?>("ProveedorId")
-                        .HasColumnType("uniqueidentifier");
-
                     b.Property<int>("cantidad")
                         .HasColumnType("int");
 
@@ -49,8 +46,6 @@ namespace PrimerAvancePOO2.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("ProveedorId");
 
                     b.ToTable("Componentes");
                 });
@@ -61,8 +56,9 @@ namespace PrimerAvancePOO2.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<int>("Direccion")
-                        .HasColumnType("int");
+                    b.Property<string>("Direccion")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -79,20 +75,6 @@ namespace PrimerAvancePOO2.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Proveedor");
-                });
-
-            modelBuilder.Entity("PrimerAvancePOO2.Entities.Componentes", b =>
-                {
-                    b.HasOne("PrimerAvancePOO2.Entities.Proveedor", "Proveedor")
-                        .WithMany("Componentes")
-                        .HasForeignKey("ProveedorId");
-
-                    b.Navigation("Proveedor");
-                });
-
-            modelBuilder.Entity("PrimerAvancePOO2.Entities.Proveedor", b =>
-                {
-                    b.Navigation("Componentes");
                 });
 #pragma warning restore 612, 618
         }
