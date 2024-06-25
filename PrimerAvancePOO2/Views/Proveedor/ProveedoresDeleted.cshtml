@@ -1,0 +1,13 @@
+@model ProveedoresModel;
+@{
+    ViewData["Title"] = "Borrar el proveedor";
+}
+ 
+  <div class="mb-3">
+¿Estas seguro de que deseas borrar al proveedor @Model.Name ?
+</div>
+
+<form asp-controller="Proveedor" asp-action="ProveedoresDeleted">
+<button type="submit" class ="btn btn-danger">Borrar</button>
+<a class="btn btn-secundary" asp-asp-controller="Proveedor" asp-action="ProveedoresList" >Regresar </a>
+</form>

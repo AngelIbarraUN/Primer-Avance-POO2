@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TqmhgbePjISK4Pe/0l0U2RArT3raeR3txsFZ/TV2nT0=",
+  "Hash": "eRpZzNry+REplCEDqpnluORNxot2kp2Djg6hAkFiSZM=",
   "Source": "PrimerAvancePOO2",
   "BasePath": "_content/PrimerAvancePOO2",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Descargas2\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgadmin\\admin.png",
+      "SourceId": "PrimerAvancePOO2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Descargas2\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\",
+      "BasePath": "_content/PrimerAvancePOO2",
+      "RelativePath": "imgadmin/admin.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgadmin\\admin.png"
     },
     {
       "Identity": "D:\\Descargas2\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\js\\site.js",

@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Descargas2\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\imgadmin\\admin.png",
+      "PackagePath": "staticwebassets\\imgadmin\\admin.png"
+    },
+    {
       "Id": "D:\\Descargas2\\Primer-Avance-POO2\\PrimerAvancePOO2\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

@@ -1,0 +1,33 @@
+@model ProveedoresModel;
+@{
+    ViewData["Title"] = "Alta de Proveedores";
+}
+ <div class="text-center">
+<h1 class="display-2">Alta de Proveedores</h1>
+</div>
+<div asp-validation-summary="All" class="text-danger"></div>
+
+
+ <form asp-controller="Proveedor" asp-action="ProveedoresAdd">
+
+
+ <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="Name" name="Name" placeholder="Escriba el nombre del proveedor:" />
+    </div>
+      <div class="mb-3">
+     <div class="mb-3">
+      <label for="nombre" class="form-label">Teléfono</label>
+        <input type="text" class="form-control" id="Telefono" name="Telefono" placeholder="Escriba el teléfono del proveedor:" />
+    </div>
+     <div class="mb-3">
+      <label for="nombre" class="form-label">Dirección</label>
+        <input type="text" class="form-control" id="Direccion" name="Direccion" placeholder="Escriba la dirección del proveedor:" />
+    </div>
+    <div class="mb-3">
+      <label for="nombre" class="form-label">Email</label>
+        <input type="text" class="form-control" id="Email" name="Email" placeholder="Escriba el Email del proveedor:" />
+    </div>
+    <button type="submit" class="btn btn-primary mb-3">Guardar</button>
+<a asp-controller="Proveedor" asp-action="ProveedoresList"class="btn btn-danger mb-3">Regresar</a>
+ </form>

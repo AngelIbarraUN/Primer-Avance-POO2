@@ -19,5 +19,64 @@ html {
 
 body {
   margin-bottom: 60px;
-  background-color: #103940;
+  background-color:rgb(10, 96, 146);
+}
+
+
+
+/*CONTENEDOR DEL MENU LATERAL
+.lateral{
+  position: relative;
+  bottom: 16px;
+  right: 109px;
+  background-color: rgb(14, 43, 93);
+  width: 300px;
+  height: 800px;
+}
+
+/*Diseño de la imagen 
+.image-admin{
+  width: 130px;
+  height: 130px;
+  position: relative;
+  top: 10px;
+  left: 75px;
+  
+}
+
+.margen-hr{
+  border: none;
+  background-color:darkblue;
+  
+} 
+
+/*Fondo de los links
+.list-nav{
+  height: 50px;
+  padding: 5px;
+}
+
+.list-nav:hover{
+  background-color: rgb(60, 88, 182);
+}
+
+/*COLOR DE LOS LINKS
+.link-nav{
+  color: white;
+}
+
+
+.link-nav:hover{
+  color: orange;
+}
+
+.nav-lateral{
+  width: 300px;
+  height: 500px;
+
+}
+
+.contenedor-menu{
+  display: flex;
+  
 }

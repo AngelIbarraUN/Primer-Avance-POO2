@@ -42,6 +42,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[d:/Descargas2/Primer-Avance-POO2/PrimerAvancePOO2/Views/Proveedor/ProveedoresAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yXFByb3ZlZWRvcmVzQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Descargas2/Primer-Avance-POO2/PrimerAvancePOO2/Views/Proveedor/ProveedoresDeleted.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yXFByb3ZlZWRvcmVzRGVsZXRlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Descargas2/Primer-Avance-POO2/PrimerAvancePOO2/Views/Proveedor/ProveedoresEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yXFByb3ZlZWRvcmVzRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/Descargas2/Primer-Avance-POO2/PrimerAvancePOO2/Views/Proveedor/ProveedoresList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yXFByb3ZlZWRvcmVzTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [d:/Descargas2/Primer-Avance-POO2/PrimerAvancePOO2/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
