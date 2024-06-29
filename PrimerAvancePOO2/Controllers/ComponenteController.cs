@@ -28,6 +28,15 @@ public class ComponenteController : Controller
         }).ToList();
         return View(list);
     }
+
+
+    [HttpGet]
+    public IActionResult ComponentesAdd()
+    {
+        return View();
+    }
+
+    [HttpPost]
     public IActionResult ComponentesAdd(ComponentesModel componentes)
     {
         if(ModelState.IsValid)
@@ -39,6 +48,7 @@ public class ComponenteController : Controller
         componentesinfo.cantidad=componentes.Cantidad;
         this._context.Componentes.Add(componentesinfo);
         this._context.SaveChanges();
+        return RedirectToAction("ComponentesList");
        }
         return View();
     }
