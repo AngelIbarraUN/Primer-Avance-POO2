@@ -13,6 +13,6 @@ namespace PrimerAvancePOO2
 
        public DbSet<Proveedor> Proveedor { get; set; }
         
-        
+       public DbSet <Perifericos> Perifericos {get;set;} 
     }
 }
