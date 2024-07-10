@@ -17,109 +17,118 @@ public class ProveedorController : Controller
     }
     public IActionResult ProveedoresList()
     {
-        List<ProveedoresModel> list=new List<ProveedoresModel>();
-        list=_context.Proveedor.Select(b=>new ProveedoresModel()
+        List<ProveedoresModel> proveedorlista=_context.Proveedor.Select(proveedor=>new ProveedoresModel()
         {
-            Id=b.Id,
-            Name=b.Name,
-            Telefono=b.Telefono,
-            Direccion=b.Direccion,
-            Email=b.Email
+            Id=proveedor.Id,
+            Name=proveedor.Name,
+            Telefono=proveedor.Telefono,
+            Direccion=proveedor.Direccion,
+            Email=proveedor.Email
         }).ToList();
-        return View(list);
+        return View(proveedorlista);
     }
+    public IActionResult ProveedoresAdd()
+        {
+            return View();
+        }
+    
+    [HttpPost]
     public IActionResult ProveedoresAdd(ProveedoresModel proveedor)
     {
-        if(ModelState.IsValid)
-       { Proveedor proveedorinfo =new Proveedor();
-       proveedorinfo.Id =new Guid();
+        if(!ModelState.IsValid)
+       {
+        return View(proveedor);
+       }
+        var proveedorinfo =new Proveedor();
+        proveedorinfo.Id =new Guid();
         proveedorinfo.Name = proveedor.Name;
         proveedorinfo.Telefono=proveedor.Telefono;
         proveedorinfo.Direccion=proveedor.Direccion;
         proveedorinfo.Email=proveedor.Email;
         this._context.Proveedor.Add(proveedorinfo);
         this._context.SaveChanges();
-       }
-        return View();
+        return RedirectToAction("ProveedoresList","Proveedor");
     }
-   [HttpGet]
+   
     public IActionResult ProveedoresEdit(Guid Id)
     {
        
-      Proveedor proveedorActualizar = this._context.Proveedor.Where(c => c.Id == Id).FirstOrDefault();
+    var proveedorActualizar = this._context.Proveedor.Where(c => c.Id == Id).FirstOrDefault();
     if (proveedorActualizar == null)
     {
-        return RedirectToAction("ProveedoresList");
+        return RedirectToAction("ProveedoresList","Proveedor");
     }
 
-    ProveedoresModel model = new ProveedoresModel
-    {
-        Id = proveedorActualizar.Id,
-        Name = proveedorActualizar.Name,
-        Telefono = proveedorActualizar.Telefono,
-        Direccion = proveedorActualizar.Direccion,
-        Email = proveedorActualizar.Email
-    };
+    ProveedoresModel model = new ProveedoresModel();
+    
+        model.Id = proveedorActualizar.Id;
+        model.Name = proveedorActualizar.Name;
+        model.Telefono = proveedorActualizar.Telefono;
+        model.Direccion = proveedorActualizar.Direccion;
+        model.Email = proveedorActualizar.Email;
+    
         return View(model);
     }
    
     [HttpPost]
-    public IActionResult ProveedoresEdit(ProveedoresModel model)
+    public IActionResult ProveedoresEdit(ProveedoresModel proveedor)
     {
-        if (ModelState.IsValid)
-    {
-        Proveedor proveedorActualizar = this._context.Proveedor.Where(c => c.Id == model.Id).FirstOrDefault();
+    
+        Proveedor proveedorActualizar = this._context.Proveedor.Where(c => c.Id == proveedor.Id).First();
         if (proveedorActualizar == null)
         {
-            return RedirectToAction("ProveedoresList");
+            return View(proveedor);
         }
+        if (!ModelState.IsValid)
+            {
+                return View(proveedor);
+            }
 
-        proveedorActualizar.Name = model.Name;
-        proveedorActualizar.Telefono = model.Telefono;
-        proveedorActualizar.Direccion = model.Direccion;
-        proveedorActualizar.Email = model.Email;
+
+        proveedorActualizar.Name = proveedor.Name;
+        proveedorActualizar.Telefono = proveedor.Telefono;
+        proveedorActualizar.Direccion = proveedor.Direccion;
+        proveedorActualizar.Email = proveedor.Email;
 
         this._context.Proveedor.Update(proveedorActualizar);
         this._context.SaveChanges();
 
-        return RedirectToAction("ProveedoresList");
-
+        return RedirectToAction("ProveedoresList","Proveedor");
+    
     }
-        return View(model);
-    }
-     [HttpGet]
     public IActionResult ProveedoresDeleted(Guid Id)
     {
        
-      Proveedor proveedoresborrado = this._context.Proveedor.Where(c => c.Id == Id).FirstOrDefault();
+      var proveedoresborrado = this._context.Proveedor.Where(c => c.Id == Id).FirstOrDefault();
     if (proveedoresborrado == null)
     {
-        return RedirectToAction("ProveedoresList");
+        return RedirectToAction("ProveedoresList","Proveedor");
     }
 
-    ProveedoresModel model = new ProveedoresModel
-    {
-        Id = proveedoresborrado.Id,
-        Name = proveedoresborrado.Name,
-        Telefono = proveedoresborrado.Telefono,
-        Direccion = proveedoresborrado.Direccion,
-        Email = proveedoresborrado.Email
-    };
+    ProveedoresModel model = new ProveedoresModel();
+        model.Id = proveedoresborrado.Id;
+        model.Name = proveedoresborrado.Name;
+        model.Telefono = proveedoresborrado.Telefono;
+        model.Direccion = proveedoresborrado.Direccion;
+        model.Email = proveedoresborrado.Email;
+    
         return View(model);
     }
    
     [HttpPost]
-    public IActionResult ProveedoresDeleted(ProveedoresModel model)
+    public IActionResult ProveedoresDeleted(ProveedoresModel proveedor)
     {
-       Proveedor proveedoresborrado = _context.Proveedor.FirstOrDefault(c => c.Id == model.Id);
-    if (proveedoresborrado == null)
+       bool proveedordeleted = this._context.Proveedor.Any(c => c.Id == proveedor.Id);
+    if (!proveedordeleted)
     {
-        return RedirectToAction("ProveedoresList");
+        return View(proveedor);
     }
 
-    _context.Proveedor.Remove(proveedoresborrado);
-    _context.SaveChanges();
+    Proveedor proveedorentity =this._context.Proveedor.
+            Where(p => p.Id == proveedor.Id).First();
+    this._context.Proveedor.Remove(proveedorentity);
+    this._context.SaveChanges();
 
-    return RedirectToAction("ProveedoresList");
+    return RedirectToAction("ProveedoresList","Proveedor");
     }
 }

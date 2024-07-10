@@ -62,7 +62,7 @@ namespace PrimerAvancePOO2.Controllers
 
         public IActionResult PerifericosEdit(Guid Id)
         {
-            Perifericos? periferico = this._context.Perifericos
+            var periferico = this._context.Perifericos
                 .Where(p => p.Id == Id).FirstOrDefault();
             if (periferico == null)
             {
@@ -101,7 +101,7 @@ namespace PrimerAvancePOO2.Controllers
 
         public IActionResult PerifericosDeleted(Guid Id)
         {
-            Perifericos? periferico = this._context.Perifericos
+            var periferico = this._context.Perifericos
             .Where(p => p.Id == Id).FirstOrDefault();
             
             if (periferico == null)
@@ -119,8 +119,8 @@ namespace PrimerAvancePOO2.Controllers
         [HttpPost]
         public IActionResult PerifericosDeleted(PerifericosModel periferico)
         {
-            bool exits = this._context.Perifericos.Any(p => p.Id == periferico.Id);
-            if (!exits)
+            bool perifericodeleted = this._context.Perifericos.Any(p => p.Id == periferico.Id);
+            if (!perifericodeleted)
             {
                 return View(periferico);
             }
