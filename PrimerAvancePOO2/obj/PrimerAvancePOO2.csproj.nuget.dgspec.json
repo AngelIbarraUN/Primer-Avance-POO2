@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Angel Ibarra\\Desktop\\Laptop Archivos\\POO2\\Primer Avance POO2\\PrimerAvancePOO2\\PrimerAvancePOO2.csproj": {}
+    "C:\\Users\\Angel Ibarra\\Desktop\\Primer Avance POO2\\Primer Avance POO2\\PrimerAvancePOO2\\PrimerAvancePOO2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Angel Ibarra\\Desktop\\Laptop Archivos\\POO2\\Primer Avance POO2\\PrimerAvancePOO2\\PrimerAvancePOO2.csproj": {
+    "C:\\Users\\Angel Ibarra\\Desktop\\Primer Avance POO2\\Primer Avance POO2\\PrimerAvancePOO2\\PrimerAvancePOO2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Angel Ibarra\\Desktop\\Laptop Archivos\\POO2\\Primer Avance POO2\\PrimerAvancePOO2\\PrimerAvancePOO2.csproj",
+        "projectUniqueName": "C:\\Users\\Angel Ibarra\\Desktop\\Primer Avance POO2\\Primer Avance POO2\\PrimerAvancePOO2\\PrimerAvancePOO2.csproj",
         "projectName": "PrimerAvancePOO2",
-        "projectPath": "C:\\Users\\Angel Ibarra\\Desktop\\Laptop Archivos\\POO2\\Primer Avance POO2\\PrimerAvancePOO2\\PrimerAvancePOO2.csproj",
+        "projectPath": "C:\\Users\\Angel Ibarra\\Desktop\\Primer Avance POO2\\Primer Avance POO2\\PrimerAvancePOO2\\PrimerAvancePOO2.csproj",
         "packagesPath": "C:\\Users\\Angel Ibarra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Angel Ibarra\\Desktop\\Laptop Archivos\\POO2\\Primer Avance POO2\\PrimerAvancePOO2\\obj\\",
+        "outputPath": "C:\\Users\\Angel Ibarra\\Desktop\\Primer Avance POO2\\Primer Avance POO2\\PrimerAvancePOO2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Angel Ibarra\\AppData\\Roaming\\NuGet\\NuGet.Config"

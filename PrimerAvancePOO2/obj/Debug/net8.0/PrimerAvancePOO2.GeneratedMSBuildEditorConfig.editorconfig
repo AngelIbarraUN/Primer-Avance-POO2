@@ -9,87 +9,87 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PrimerAvancePOO2
 build_property.RootNamespace = PrimerAvancePOO2
-build_property.ProjectDir = C:\Users\Angel Ibarra\Desktop\Laptop Archivos\POO2\Primer Avance POO2\PrimerAvancePOO2\
+build_property.ProjectDir = C:\Users\Angel Ibarra\Desktop\Primer Avance POO2\Primer Avance POO2\PrimerAvancePOO2\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Angel Ibarra\Desktop\Laptop Archivos\POO2\Primer Avance POO2\PrimerAvancePOO2
+build_property.MSBuildProjectDirectory = C:\Users\Angel Ibarra\Desktop\Primer Avance POO2\Primer Avance POO2\PrimerAvancePOO2
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Angel Ibarra/Desktop/Laptop Archivos/POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Componente/ComponentesAdd.cshtml]
+[C:/Users/Angel Ibarra/Desktop/Primer Avance POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Componente/ComponentesAdd.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50ZVxDb21wb25lbnRlc0FkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Angel Ibarra/Desktop/Laptop Archivos/POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Componente/ComponentesDeleted.cshtml]
+[C:/Users/Angel Ibarra/Desktop/Primer Avance POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Componente/ComponentesDeleted.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50ZVxDb21wb25lbnRlc0RlbGV0ZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Angel Ibarra/Desktop/Laptop Archivos/POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Componente/ComponentesEdit.cshtml]
+[C:/Users/Angel Ibarra/Desktop/Primer Avance POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Componente/ComponentesEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50ZVxDb21wb25lbnRlc0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Angel Ibarra/Desktop/Laptop Archivos/POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Componente/ComponentesList.cshtml]
+[C:/Users/Angel Ibarra/Desktop/Primer Avance POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Componente/ComponentesList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50ZVxDb21wb25lbnRlc0xpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Angel Ibarra/Desktop/Laptop Archivos/POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Home/Index.cshtml]
+[C:/Users/Angel Ibarra/Desktop/Primer Avance POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Angel Ibarra/Desktop/Laptop Archivos/POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Home/Privacy.cshtml]
+[C:/Users/Angel Ibarra/Desktop/Primer Avance POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Angel Ibarra/Desktop/Laptop Archivos/POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Perifericos/PerifericosAdd.cshtml]
+[C:/Users/Angel Ibarra/Desktop/Primer Avance POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Perifericos/PerifericosAdd.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyaWZlcmljb3NcUGVyaWZlcmljb3NBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Angel Ibarra/Desktop/Laptop Archivos/POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Perifericos/PerifericosDeleted.cshtml]
+[C:/Users/Angel Ibarra/Desktop/Primer Avance POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Perifericos/PerifericosDeleted.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyaWZlcmljb3NcUGVyaWZlcmljb3NEZWxldGVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Angel Ibarra/Desktop/Laptop Archivos/POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Perifericos/PerifericosEdit.cshtml]
+[C:/Users/Angel Ibarra/Desktop/Primer Avance POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Perifericos/PerifericosEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyaWZlcmljb3NcUGVyaWZlcmljb3NFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Angel Ibarra/Desktop/Laptop Archivos/POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Perifericos/PerifericosList.cshtml]
+[C:/Users/Angel Ibarra/Desktop/Primer Avance POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Perifericos/PerifericosList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyaWZlcmljb3NcUGVyaWZlcmljb3NMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Angel Ibarra/Desktop/Laptop Archivos/POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Proveedor/ProveedoresAdd.cshtml]
+[C:/Users/Angel Ibarra/Desktop/Primer Avance POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Proveedor/ProveedoresAdd.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yXFByb3ZlZWRvcmVzQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Angel Ibarra/Desktop/Laptop Archivos/POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Proveedor/ProveedoresDeleted.cshtml]
+[C:/Users/Angel Ibarra/Desktop/Primer Avance POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Proveedor/ProveedoresDeleted.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yXFByb3ZlZWRvcmVzRGVsZXRlZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Angel Ibarra/Desktop/Laptop Archivos/POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Proveedor/ProveedoresEdit.cshtml]
+[C:/Users/Angel Ibarra/Desktop/Primer Avance POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Proveedor/ProveedoresEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yXFByb3ZlZWRvcmVzRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Angel Ibarra/Desktop/Laptop Archivos/POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Proveedor/ProveedoresList.cshtml]
+[C:/Users/Angel Ibarra/Desktop/Primer Avance POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Proveedor/ProveedoresList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yXFByb3ZlZWRvcmVzTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Angel Ibarra/Desktop/Laptop Archivos/POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Shared/Error.cshtml]
+[C:/Users/Angel Ibarra/Desktop/Primer Avance POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Angel Ibarra/Desktop/Laptop Archivos/POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Angel Ibarra/Desktop/Primer Avance POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Angel Ibarra/Desktop/Laptop Archivos/POO2/Primer Avance POO2/PrimerAvancePOO2/Views/_ViewImports.cshtml]
+[C:/Users/Angel Ibarra/Desktop/Primer Avance POO2/Primer Avance POO2/PrimerAvancePOO2/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Angel Ibarra/Desktop/Laptop Archivos/POO2/Primer Avance POO2/PrimerAvancePOO2/Views/_ViewStart.cshtml]
+[C:/Users/Angel Ibarra/Desktop/Primer Avance POO2/Primer Avance POO2/PrimerAvancePOO2/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Angel Ibarra/Desktop/Laptop Archivos/POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Shared/_Layout.cshtml]
+[C:/Users/Angel Ibarra/Desktop/Primer Avance POO2/Primer Avance POO2/PrimerAvancePOO2/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-35fxbda6ga
