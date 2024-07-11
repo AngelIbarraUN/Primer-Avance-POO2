@@ -1,4 +1,5 @@
 
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using PrimerAvancePOO2.Entities;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
@@ -14,6 +15,6 @@ namespace PrimerAvancePOO2
 
         public DbSet<Proveedor> Proveedor { get; set; }
         
-        
+       public DbSet <Perifericos> Perifericos {get;set;} 
     }
 }

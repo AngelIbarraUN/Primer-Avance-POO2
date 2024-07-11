@@ -3,6 +3,7 @@ using PrimerAvancePOO2.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using PrimerAvancePOO2.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace PrimerAvancePOO2.Controllers;
 
@@ -17,18 +18,19 @@ public class ComponenteController : Controller
     }
     public IActionResult ComponentesList()
     {
-        List<ComponentesModel> list=new List<ComponentesModel>();
-        list=_context.Componentes.Select(b=>new ComponentesModel()
+        List<ComponentesModel> componentelista
+        =_context.Componentes.Select(componente=>new ComponentesModel()
         {
-            Id=b.Id,
-            Name=b.Name,
-            Descripcion=b.Descripcion,
-            Precio=b.precio,
-            Cantidad=b.cantidad
+            Id=componente.Id,
+            Name=componente.Name,
+            Descripcion=componente.Descripcion,
+            Precio=componente.precio,
+            Cantidad=componente.cantidad
         }).ToList();
-        return View(list);
+        return View(componentelista);
     }
 
+<<<<<<< HEAD
 
     [HttpGet]
     public IActionResult ComponentesAdd()
@@ -38,98 +40,121 @@ public class ComponenteController : Controller
 
     [HttpPost]
     public IActionResult ComponentesAdd(ComponentesModel componentes)
+=======
+   public IActionResult ComponentesAdd()
+        {
+            return View();
+        }
+
+    [HttpPost]
+    public IActionResult ComponentesAdd(ComponentesModel componente)
+>>>>>>> 06958a309ddcf182d761b2f6d20383d516fde7d9
     {
-        if(ModelState.IsValid)
-       { Componentes componentesinfo =new Componentes();
+        if(!ModelState.IsValid)
+       { 
+       return View(componente);
+       }
+        var componentesinfo =new Componentes();
        componentesinfo.Id =new Guid();
-        componentesinfo.Name = componentes.Name;
-        componentesinfo.Descripcion=componentes.Descripcion;
-        componentesinfo.precio=componentes.Precio;
-        componentesinfo.cantidad=componentes.Cantidad;
+        componentesinfo.Name = componente.Name;
+        componentesinfo.Descripcion=componente.Descripcion;
+        componentesinfo.precio=componente.Precio;
+        componentesinfo.cantidad=componente.Cantidad;
         this._context.Componentes.Add(componentesinfo);
         this._context.SaveChanges();
+<<<<<<< HEAD
         return RedirectToAction("ComponentesList");
        }
         return View();
+=======
+        return RedirectToAction("ComponentesList","Componente");
+>>>>>>> 06958a309ddcf182d761b2f6d20383d516fde7d9
     }
-   [HttpGet]
+   
     public IActionResult ComponentesEdit(Guid Id)
     {
        
-      Componentes componenteActualizar = this._context.Componentes.Where(c => c.Id == Id).FirstOrDefault();
+     var componenteActualizar = this._context.Componentes.Where(c => c.Id == Id).FirstOrDefault();
     if (componenteActualizar == null)
     {
-        return RedirectToAction("ComponentesList");
+        return RedirectToAction("ComponentesList,Componente");
     }
 
-    ComponentesModel model = new ComponentesModel
-    {
-        Id = componenteActualizar.Id,
-        Name = componenteActualizar.Name,
-        Descripcion = componenteActualizar.Descripcion,
-        Precio = componenteActualizar.precio,
-        Cantidad = componenteActualizar.cantidad
-    };
+    ComponentesModel model = new ComponentesModel();
+    
+        model.Id = componenteActualizar.Id;
+        model.Name = componenteActualizar.Name;
+       model. Descripcion = componenteActualizar.Descripcion;
+        model.Precio = componenteActualizar.precio;
+        model.Cantidad = componenteActualizar.cantidad;
+    
         return View(model);
     }
    
     [HttpPost]
-    public IActionResult ComponentesEdit(ComponentesModel model)
+    public IActionResult ComponentesEdit(ComponentesModel componente)
     {
-        if (ModelState.IsValid)
-    {
-        Componentes componenteActualizar = this._context.Componentes.Where(c => c.Id == model.Id).FirstOrDefault();
+
+      var componenteActualizar = this._context.Componentes.Where(c => c.Id == componente.Id).First();
+       
         if (componenteActualizar == null)
         {
-            return RedirectToAction("ComponentesList");
+            return View(componente);
         }
 
-        componenteActualizar.Name = model.Name;
-        componenteActualizar.Descripcion = model.Descripcion;
-        componenteActualizar.precio = model.Precio;
-        componenteActualizar.cantidad = model.Cantidad;
+        if (!ModelState.IsValid)
+            {
+                return View(componente);
+            }
+
+        componenteActualizar.Name = componente.Name;
+        componenteActualizar.Descripcion = componente.Descripcion;
+        componenteActualizar.precio = componente.Precio;
+        componenteActualizar.cantidad = componente.Cantidad;
 
         this._context.Componentes.Update(componenteActualizar);
         this._context.SaveChanges();
 
-        return RedirectToAction("ComponentesList");
+        return RedirectToAction("ComponentesList","Componente");
 
     }
-        return View(model);
-    }
-     [HttpGet]
+     
     public IActionResult ComponentesDeleted(Guid Id)
     {
        
-      Componentes componentesborrado = this._context.Componentes.Where(c => c.Id == Id).FirstOrDefault();
+      var componentesborrado = this._context.Componentes.Where(c => c.Id == Id).FirstOrDefault();
     if (componentesborrado == null)
     {
-        return RedirectToAction("ComponentesList");
+        return RedirectToAction("ComponentesList","Componente");
     }
 
-    ComponentesModel model = new ComponentesModel
-    {
-        Id = componentesborrado.Id,
-        Name = componentesborrado.Name,
-        Descripcion = componentesborrado.Descripcion,
-        Precio = componentesborrado.precio,
-        Cantidad = componentesborrado.cantidad
-    };
+    var model = new ComponentesModel();
+    
+        model.Id = componentesborrado.Id;
+        model.Name = componentesborrado.Name;
+        model.Descripcion = componentesborrado.Descripcion;
+        model.Precio = componentesborrado.precio;
+        model.Cantidad = componentesborrado.cantidad;
+    
         return View(model);
     }
    
     [HttpPost]
-    public IActionResult ComponentesDeleted(ComponentesModel model)
+    public async Task<IActionResult> ComponentesDeleted(ComponentesModel componente)
     {
-       Componentes componentesborrado = _context.Componentes.FirstOrDefault(c => c.Id == model.Id);
-    if (componentesborrado == null)
+       bool componenteDeleted= await this._context.Componentes.AnyAsync(c => c.Id == componente.Id);
+    if (!componenteDeleted )
     {
-        return RedirectToAction("ComponentesList");
+      
+        return View(componente);
     }
 
-    _context.Componentes.Remove(componentesborrado);
-    _context.SaveChanges();
+    Componentes componenteentity =this._context.Componentes
+    .Where(c => c.Id == componente.Id).First();
 
-    return RedirectToAction("ComponentesList");
+    this._context.Componentes.Remove(componenteentity);
+    this._context.SaveChanges();
+
+    return RedirectToAction("ComponentesList","Componente");
     }
 }

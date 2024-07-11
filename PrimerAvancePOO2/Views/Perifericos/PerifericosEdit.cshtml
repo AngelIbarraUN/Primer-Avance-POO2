@@ -1,0 +1,26 @@
+@model PerifericosModel
+
+@{
+    ViewData["Title"] = "Editar el periferico";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="PerifericosEdit" asp-controller="Perifericos">
+    <input type="hidden" asp-for"Id">
+
+    <div class="form-floating mb-3">
+        <input type="text" class="form-control" asp-for="Name" placeholder="Nombre del Periferico">
+        <label asp-for="Name">Nombre del Periferico</label>
+    </div>
+      <div class="form-floating mb-3">
+        <input type="textarea" class="form-control" asp-for="Tipo" rows="5">
+        <label asp-for="Tipo">Tipo</label>
+    </div>
+      <div class="form-floating mb-3">
+        <input type="textarea" class="form-control" asp-for="precio" rows="5">
+        <label asp-for="precio">Precio</label>
+    </div>
+    <button class="btn btn-outline-primary">Guardar</button>
+    <a class="btn btn-outline-secundary" asp-action="PerifericosList" asp-controller="Perifericos">Regresar</a>
+</form>

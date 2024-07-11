@@ -1,0 +1,42 @@
+@model List<PerifericosModel> 
+
+@{
+    ViewData["Title"] = "Listado de Perifericos:";
+}
+
+<div class="text-center">
+<h1 class="display-2">Listado de Perifericos</h1>
+<a asp-controller="Perifericos" asp-action="PerifericosAdd" class="btn btn-primary mb-3"> Agregar Periferico </a>
+</div>
+<table class="table table-striped">  
+    <thead>
+<tr>
+    <th scope="col">Acciones </th>
+    <th scope="col">ID</th>
+    <th scope="col">Nombre</th>
+    <th scope="col">Tipo</th>
+    <th scope="col">Precio</th>
+
+</tr>
+
+    </thead>
+<tbody>
+@foreach (var per in Model)
+{
+    <tr>
+        <td>
+<a class="btn btn-primary" asp-controller="Perifericos" asp-action="PerifericosEdit" asp-route-id="@per.Id">Editar</a>
+<a class="btn btn-danger" asp-controller="Perifericos" asp-action="PerifericosDeleted" asp-route-id="@per.Id">Borrar</a>
+        </td>
+        <td> @per.Id </td>
+        <td> @per.Name</td>
+        <td> @per.Tipo</td>
+        <td> @per.precio</td>
+    </tr>
+}
+</tbody>
+
+<tfoot>
+
+</tfoot>
+</table>
