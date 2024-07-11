@@ -9,71 +9,87 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PrimerAvancePOO2
 build_property.RootNamespace = PrimerAvancePOO2
-build_property.ProjectDir = d:\Descargas2\Primer-Avance-POO2\PrimerAvancePOO2\
+build_property.ProjectDir = D:\Documentos\Primer-Avance-POO2\PrimerAvancePOO2\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = d:\Descargas2\Primer-Avance-POO2\PrimerAvancePOO2
+build_property.MSBuildProjectDirectory = D:\Documentos\Primer-Avance-POO2\PrimerAvancePOO2
 build_property._RazorSourceGeneratorDebug = 
 
-[d:/Descargas2/Primer-Avance-POO2/PrimerAvancePOO2/Views/Componente/ComponentesAdd.cshtml]
+[D:/Documentos/Primer-Avance-POO2/PrimerAvancePOO2/Views/Componente/ComponentesAdd.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50ZVxDb21wb25lbnRlc0FkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Descargas2/Primer-Avance-POO2/PrimerAvancePOO2/Views/Componente/ComponentesDeleted.cshtml]
+[D:/Documentos/Primer-Avance-POO2/PrimerAvancePOO2/Views/Componente/ComponentesDeleted.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50ZVxDb21wb25lbnRlc0RlbGV0ZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Descargas2/Primer-Avance-POO2/PrimerAvancePOO2/Views/Componente/ComponentesEdit.cshtml]
+[D:/Documentos/Primer-Avance-POO2/PrimerAvancePOO2/Views/Componente/ComponentesEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50ZVxDb21wb25lbnRlc0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Descargas2/Primer-Avance-POO2/PrimerAvancePOO2/Views/Componente/ComponentesList.cshtml]
+[D:/Documentos/Primer-Avance-POO2/PrimerAvancePOO2/Views/Componente/ComponentesList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50ZVxDb21wb25lbnRlc0xpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Descargas2/Primer-Avance-POO2/PrimerAvancePOO2/Views/Home/Index.cshtml]
+[D:/Documentos/Primer-Avance-POO2/PrimerAvancePOO2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Descargas2/Primer-Avance-POO2/PrimerAvancePOO2/Views/Home/Privacy.cshtml]
+[D:/Documentos/Primer-Avance-POO2/PrimerAvancePOO2/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Descargas2/Primer-Avance-POO2/PrimerAvancePOO2/Views/Proveedor/ProveedoresAdd.cshtml]
+[D:/Documentos/Primer-Avance-POO2/PrimerAvancePOO2/Views/Proveedor/ProveedoresAdd.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yXFByb3ZlZWRvcmVzQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Descargas2/Primer-Avance-POO2/PrimerAvancePOO2/Views/Proveedor/ProveedoresDeleted.cshtml]
+[D:/Documentos/Primer-Avance-POO2/PrimerAvancePOO2/Views/Proveedor/ProveedoresDeleted.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yXFByb3ZlZWRvcmVzRGVsZXRlZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Descargas2/Primer-Avance-POO2/PrimerAvancePOO2/Views/Proveedor/ProveedoresEdit.cshtml]
+[D:/Documentos/Primer-Avance-POO2/PrimerAvancePOO2/Views/Proveedor/ProveedoresEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yXFByb3ZlZWRvcmVzRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Descargas2/Primer-Avance-POO2/PrimerAvancePOO2/Views/Proveedor/ProveedoresList.cshtml]
+[D:/Documentos/Primer-Avance-POO2/PrimerAvancePOO2/Views/Proveedor/ProveedoresList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdmVlZG9yXFByb3ZlZWRvcmVzTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Descargas2/Primer-Avance-POO2/PrimerAvancePOO2/Views/Shared/Error.cshtml]
+[D:/Documentos/Primer-Avance-POO2/PrimerAvancePOO2/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Descargas2/Primer-Avance-POO2/PrimerAvancePOO2/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Documentos/Primer-Avance-POO2/PrimerAvancePOO2/Views/Shared/_LinksLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MaW5rc0xvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Primer-Avance-POO2/PrimerAvancePOO2/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Descargas2/Primer-Avance-POO2/PrimerAvancePOO2/Views/_ViewImports.cshtml]
+[D:/Documentos/Primer-Avance-POO2/PrimerAvancePOO2/Views/Usuarios/InicioSesion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5pY2lvU2VzaW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Primer-Avance-POO2/PrimerAvancePOO2/Views/Usuarios/Registros.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcUmVnaXN0cm9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Primer-Avance-POO2/PrimerAvancePOO2/Views/Usuarios/_layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcX2xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documentos/Primer-Avance-POO2/PrimerAvancePOO2/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Descargas2/Primer-Avance-POO2/PrimerAvancePOO2/Views/_ViewStart.cshtml]
+[D:/Documentos/Primer-Avance-POO2/PrimerAvancePOO2/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Descargas2/Primer-Avance-POO2/PrimerAvancePOO2/Views/Shared/_Layout.cshtml]
+[D:/Documentos/Primer-Avance-POO2/PrimerAvancePOO2/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-35fxbda6ga

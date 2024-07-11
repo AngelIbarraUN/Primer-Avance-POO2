@@ -1,0 +1,32 @@
+@model RegistroViewModel
+
+@{
+    ViewData["title"] = "Registro";
+}
+<link rel="stylesheet" href="~/css/registros.css" asp-append-version="true" />
+
+
+<div class="card card-perso">
+    <div class="card-body">
+        <form asp-action="Registros">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="text-center titulo-perso">Registrarse</div><br><br>
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label"></label>
+                <input asp-for="Email" autocomplete="off" class="form-control"/>
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+             <div class="mb-3">
+                <label asp-for="Password" class="form-label"></label>
+                <input asp-for="Password" class="form-control"/>
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <button class="btn-perso">Registrarse</button>
+            <a class=" btn-perso1" asp-action="InicioSesion">Iniciar Sesion</a>
+            <br><br>
+
+
+        </form>
+    </div>
+</div>

@@ -1,33 +1,103 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<link rel="stylesheet" href="~/css/index.css">
 
-<!--
- <div class="lateral">
-    <div class="container-nav">
-        <img class="image-admin rounded-circle" src="~/imgadmin/admin.png">
+<div id="carouselExampleRide" class="carousel slide text-center" data-bs-ride="true">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="~/imgUsuario/slider1.png" class="d-block w-100" alt="...">
+        </div>
+
+        <div class="carousel-item">
+            <img src="~/imgUsuario/slider2.png" class="d-block w-100" alt="...">
+        </div>
+
+        <div class="carousel-item">
+            <img src="~/imgUsuario/slider3.png" class="d-block w-100" alt="...">
+        </div>
+
     </div>
-    <br>
-    <hr class="margen-hr" size="5">
-        <ul class="nav flex-column">
-            <li class="nav-item list-nav">
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
 
-                <a class="nav-link active link-nav" asp-controller="Componente"
-                asp-action="ComponentesList">Componentes</a>
-            </li>
-            
-            <li class="nav-item list-nav">
-                
-                <a class="nav-link link-nav" asp-controller="Componente"
-                asp-action="ComponentesList">Provedores</a>
-            </li>
-          
-            <li class="nav-item list-nav">
+<!-- IMAGENES POPULARES DE LOS COMPONENTES-->
+<div class="title-in">
+    <p>Productos Populares</p>
+    <div class="luz"></div>
+</div>
 
-                <a class="nav-link link-nav" href="#">Clientes</a>
-            </li>
-            
-        </ul>
-    </div>
 
->
+
+<table class="container-table">
+    <tbody>
+        <tr>
+            <td class="content-table">
+                <img class="cont-img" src="~/imgUsuario/teclado1.jpg" alt="" class="">
+                <p class="text-if">Teclado Gamer DRAGONBORN K630RGB Blue / Negro / Alambrico / Led RGB / Ingles / Tenkeyless / Switch Redragon Blue / Botones Multimedia (FN+)</p>
+            </td>
+            <td class="content-table">
+                <img class="cont-img" src="~/imgUsuario/teclado1.jpg" alt="" class="">
+                <p class="text-if">Teclado Gamer DRAGONBORN K630RGB Blue / Negro / Alambrico / Led RGB / Ingles / Tenkeyless / Switch Redragon Blue / Botones Multimedia (FN+)</p>
+            </td>
+            <td class="content-table">
+                <img class="cont-img" src="~/imgUsuario/teclado1.jpg" alt="" class="">
+                <p class="text-if">Teclado Gamer DRAGONBORN K630RGB Blue / Negro / Alambrico / Led RGB / Ingles / Tenkeyless / Switch Redragon Blue / Botones Multimedia (FN+)</p>
+            </td>
+        </tr>
+
+        <!--SECCION 2 TABLE-->
+        <tr>
+            <td class="content-table">
+                <img class="cont-img" src="~/imgUsuario/teclado1.jpg" alt="" class="">
+                <p class="text-if">Teclado Gamer DRAGONBORN K630RGB Blue / Negro / Alambrico / Led RGB / Ingles / Tenkeyless / Switch Redragon Blue / Botones Multimedia (FN+)</p>
+            </td>
+            <td class="content-table">
+                <img class="cont-img" src="~/imgUsuario/teclado1.jpg" alt="" class="">
+                <p class="text-if">Teclado Gamer DRAGONBORN K630RGB Blue / Negro / Alambrico / Led RGB / Ingles / Tenkeyless / Switch Redragon Blue / Botones Multimedia (FN+)</p>
+            </td>
+            <td class="content-table">
+                <img class="cont-img" src="~/imgUsuario/teclado1.jpg" alt="" class="">
+                <p class="text-if">Teclado Gamer DRAGONBORN K630RGB Blue / Negro / Alambrico / Led RGB / Ingles / Tenkeyless / Switch Redragon Blue / Botones Multimedia (FN+)</p>
+            </td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr></tr>
+    </tbody>
+</table>
+
+
+<!--MARCAS ASOCIADAS-->
+
+<div class="title-marcas">
+    <p class="title-ma">
+        Marcas Asociadas
+    </p>
+</div>
+
+<div class="luz2"></div>
+
+
+<marquee  behavior="scroll" direction="left" scrollamount="15px" loop="infinite">
+   
+        <div class="content-mq1">
+            <img class="marca1" src="~/imgUsuario/amd.png" alt="">
+            <img class="marca1" src="~/imgUsuario/asus.png" alt="">
+            <img class="marca1" src="~/imgUsuario/nvidia.png" alt="">
+            <img class="marca1" src="~/imgUsuario/tuf.png" alt="">
+            <img class="marca1" src="~/imgUsuario/intel.png" alt="">
+            <img class="marca1" src="~/imgUsuario/amd.png" alt="">
+        </div>
+</marquee>
+
+
+
+

@@ -1,0 +1,192 @@
+
+/*DISEÑO DE BOTON DE SALIR O CERRAR SESION*/
+.content-lg{
+  width: 80px;
+  padding: 10px;
+  background-color: aliceblue;
+  border-radius: 15px 1px 0px 15px;
+  box-shadow: 3px 8px rgb(139, 133, 133);
+  position: relative;
+  left: 1420px;
+  top: 15px;
+}
+
+.content-lg:hover{
+  box-shadow: 2px 3px rgb(139, 133, 133);
+}
+
+
+/*DISEÑO CARRUSEL*/
+.carousel-control-prev{
+    left: -54px;
+    top: 230px;
+    width: 50px;
+    height: 100px;
+    
+}
+
+.carousel-control-next{
+    left: 100%;
+    top: 235px;
+    width: 50px;
+    height: 100px;
+}
+
+.carousel-control-prev-icon{
+    background-color: rgba(16, 16, 16, 0);
+    border-radius: 15px;
+    position: relative;
+    right:  2px;
+  }
+  
+  .carousel-control-next-icon{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 15px;
+    position: relative;
+    left: 2px;
+  }
+  
+  /*DISEÑO DEL CARRUSEL*/
+  .carousel-item{
+    margin-top: 25px;
+    transition:1.5s;
+    animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;;
+  }
+
+  
+  
+  /*ANIMACION PARA EL SLIDER*/
+  @keyframes slide-in-right {
+    0% {
+      transform: translateX(1000px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  /*DISEÑO DE LO MAS POPULAR TABLA*/
+  .title-in{
+    width: 100%;
+    margin-top: 200px;
+    
+  }
+
+  .title-in p{
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+
+  }
+
+  
+
+  .luz{
+  z-index: 0;
+  border-radius: 100%;
+  width: 60px;
+  height: 3px;
+  background: #ffffffbb;
+  box-shadow: 0px -4px 20px white;
+  animation: MyDiv 3s infinite ease-in;
+  position: relative;
+  }
+
+  .luz{
+    animation-direction:alternate;
+  }
+
+  @keyframes MyDiv {
+    0%   {left: 0px; top: 0px;}
+    100%  {left: 15%; top: 0px; }
+  }
+  
+
+  .container-table{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    
+  }
+
+  .content-table{
+    position: relative;
+    left: 90px;
+    padding: 20px;
+    border-radius: 25px;
+    
+  }
+
+  .cont-img{
+    border-radius: 20px;
+    width: 250px;
+  }
+
+  .text-if{
+    font-size: 15px;
+    position: relative;
+    right: 80px;
+    text-align: center;
+    color: aqua;
+  }
+
+  /*MARCAS ASOCIADAS*/
+  .title-marcas{
+    width: 100%;
+
+  }
+
+  .title-ma{
+    margin-top: 100px;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .luz2{
+    z-index: 0;
+  border-radius: 100%;
+  width: 60px;
+  height: 3px;
+  background: #ffffffbb;
+  box-shadow: 0px -4px 20px white;
+  animation: MyDiv 3s infinite ease-in;
+  position: relative;
+  margin-bottom: 25px;
+  }
+
+  .luz2{
+    animation-direction:alternate;
+  }
+
+
+
+
+  marquee{
+    border-radius: 15px;
+    
+    background-color: rgba(236, 230, 230, 0);
+  }
+
+  .content-mq1 img{
+    margin-left: 35px;
+    width: 250px;
+    height: 200px;
+  }
+
+  .marca1{
+    border-radius: 15px;
+    background-color:rgb(212, 142, 13);
+    box-shadow: 0px 4px 10px rgb(16, 16, 16);
+  }
+
+  .marca1:hover{
+    background-color: white;
+  }
+
+  

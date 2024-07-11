@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Descargas2\\Primer-Avance-POO2\\PrimerAvancePOO2\\PrimerAvancePOO2.csproj": {}
+    "D:\\Documentos\\Primer-Avance-POO2\\PrimerAvancePOO2\\PrimerAvancePOO2.csproj": {}
   },
   "projects": {
-    "D:\\Descargas2\\Primer-Avance-POO2\\PrimerAvancePOO2\\PrimerAvancePOO2.csproj": {
+    "D:\\Documentos\\Primer-Avance-POO2\\PrimerAvancePOO2\\PrimerAvancePOO2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Descargas2\\Primer-Avance-POO2\\PrimerAvancePOO2\\PrimerAvancePOO2.csproj",
+        "projectUniqueName": "D:\\Documentos\\Primer-Avance-POO2\\PrimerAvancePOO2\\PrimerAvancePOO2.csproj",
         "projectName": "PrimerAvancePOO2",
-        "projectPath": "D:\\Descargas2\\Primer-Avance-POO2\\PrimerAvancePOO2\\PrimerAvancePOO2.csproj",
+        "projectPath": "D:\\Documentos\\Primer-Avance-POO2\\PrimerAvancePOO2\\PrimerAvancePOO2.csproj",
         "packagesPath": "C:\\Users\\oscar\\.nuget\\packages\\",
-        "outputPath": "D:\\Descargas2\\Primer-Avance-POO2\\PrimerAvancePOO2\\obj\\",
+        "outputPath": "D:\\Documentos\\Primer-Avance-POO2\\PrimerAvancePOO2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\oscar\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",

@@ -18,65 +18,108 @@ html {
 }
 
 body {
+  overflow-x: hidden;
   margin-bottom: 60px;
-  background-color:rgb(10, 96, 146);
-}
-
-
-
-/*CONTENEDOR DEL MENU LATERAL
-.lateral{
-  position: relative;
-  bottom: 16px;
-  right: 109px;
-  background-color: rgb(14, 43, 93);
-  width: 300px;
-  height: 800px;
-}
-
-/*Diseño de la imagen 
-.image-admin{
-  width: 130px;
-  height: 130px;
-  position: relative;
-  top: 10px;
-  left: 75px;
+  background-color:#0c2239;
   
 }
 
-.margen-hr{
-  border: none;
-  background-color:darkblue;
-  
-} 
 
-/*Fondo de los links
-.list-nav{
-  height: 50px;
-  padding: 5px;
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  width: 100%;
+  height: 75px;
+  background-color:orange;
+  box-shadow: 3px 3px 10px rgb(170, 117, 20);
+  box-sizing: border-box;
 }
 
-.list-nav:hover{
-  background-color: rgb(60, 88, 182);
+.containerr{
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
 }
 
-/*COLOR DE LOS LINKS
-.link-nav{
+.containerr img{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-left: 10px;
+}
+
+.containerr a {
   color: white;
 }
 
-
-.link-nav:hover{
-  color: orange;
+.logo-title{
+  font-size: 20px;
+  position: relative;
+  text-decoration: none;
 }
 
-.nav-lateral{
-  width: 300px;
-  height: 500px;
 
+.dropdown-center{
+  margin-left:30px;
+  margin-right:0px;
+  border-radius: 10px;
 }
 
-.contenedor-menu{
-  display: flex;
+.dropdown-center button{
+  border: 2px solid rgb(229, 232, 234);
+  color: black;
+}
+
+.dropdown-center button:hover{
+  background-color: rgb(22, 22, 78);
+  color: white;
+}
+
+.dropdown-menu{
+  background-color: #e5e5f0;
+}
+
+.dropdown-menu li a{
+  text-align: center;
+  color: #141414;
   
+}
+
+
+.container-LR{
+  margin-left: 38%;
+}
+
+.container-LR a{
+  font-size: 16px;
+  color: white;
+  position: relative;
+  margin-left:10px;
+  text-decoration: none;
+}
+
+.content-LR{
+  border-radius: 5px;
+  padding: 8px;
+  background-color: rgb(22, 22, 78);
+  box-shadow: 3px 3px 1px  rgb(31, 36, 103);
+}
+
+.content-LR:hover{
+  box-shadow: 1px 1px 1px  rgba(31, 36, 103, 0.838);
+  
+}
+
+.d-flex{
+  margin-right: 5px;
+}
+
+.d-flex svg{
+  width: 30px;
+  height: 30px;
 }

@@ -8,14 +8,16 @@
 <h1 class="display-2">Listado de Proveedores</h1>
 <a asp-controller="Proveedor" asp-action="ProveedoresAdd" class="btn btn-primary mb-3"> Agregar Proveedor </a>
 </div>
-<table class="table">  
+<table class="table table-striped">  
     <thead>
 <tr>
-    <th>Acciones </th>
-    <th>ID</th>
-    <th>Nombre</th>
-    <th>Teléfono</th>
-    <th>Dirección</th>
+    <th scope="col">Acciones </th>
+    <th scope="col">ID</th>
+    <th scope="col">Nombre</th>
+    <th scope="col">Teléfono</th>
+    <th scope="col">Dirección</th>
+    <th scope="col">Email</th>
+
 </tr>
 
     </thead>
@@ -27,18 +29,11 @@
 <a class="btn btn-primary" asp-controller="Proveedor" asp-action="ProveedoresEdit" asp-route-id="@proveedor.Id">Editar</a>
 <a class="btn btn-danger" asp-controller="Proveedor" asp-action="ProveedoresDeleted" asp-route-id="@proveedor.Id">Borrar</a>
         </td>
-        <td>
-            @proveedor.Id
-        </td>
-          <td>
-            @proveedor.Name
-        //td>
-          <td>
-            
-        </td>
-          <td>
-        
-        </td>
+        <td> @proveedor.Id </td>
+        <td> @proveedor.Name</td>
+        <td> @proveedor.Telefono</td>
+        <td> @proveedor.Direccion</td>
+        <td> @proveedor.Email</td>
     </tr>
 }
 </tbody>
